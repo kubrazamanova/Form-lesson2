@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 100px 0 100px 100px;
+  background: #f6f6f6;
+}
+
+.container .left-side .logo {
+  display: flex;
+  align-items: center;
+}
+
+.container .left-side .logo svg {
+  display: flex;
+  margin-right: 20px;
+}
+.container .left-side .logo .h1 {
+  color: #393939;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.container h2 {
+  margin-top: 80px;
+  color: #393939;
+  font-family: Poppins;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container p {
+  margin-top: 10px;
+  color: #393939;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container input {
+  width: 427px;
+  height: 38px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.container form {
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container form input {
+  padding: 20px;
+}
+
+.container .left-side .logo .remember {
+  color: #666;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container .sign {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 5px;
+  background: #f35d5d;
+  width: 427px;
+  height: 38px;
+  border: none;
+}
+
+.remember button {
+  position: absolute;
+  left: 100px;
+}
+
+.right-side img {
+  width: 50%;
+}
