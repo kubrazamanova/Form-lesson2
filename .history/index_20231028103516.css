@@ -11,15 +11,11 @@
 .container .left-side{
   background: #f6f6f6;
   width: 50%;
-  padding: 100px;
+  /* padding: 100px; */
 }
 .container .right-side{
-  width: 49%;
+  width: 50%;
 }
-.container .right-side img{
-  width: 100%;
-}
-
 .container .left-side .logo {
   display: flex;
   align-items: center;
@@ -57,21 +53,12 @@
   font-weight: 700;
   line-height: normal;
 }
-.container label{
-  width: 100%;
-  height: 38px;
-  padding: 0 20px;
-  border-radius: 5px;
-  background: #fff;
-  display: flex;
-  align-items: center;
-}
+
 .container input {
   width: 100%;
   height: 38px;
+  border-radius: 5px;
   background: #fff;
-  outline: none;
-
 }
 
 .container form {
